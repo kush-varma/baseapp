@@ -9,19 +9,19 @@
   "author": "Kush Varma",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "*",
-    "body-parser": "*",
-    "connect-flash": "*",
-    "cookie-parser": "*",
-    "express": "*",
-    "express-handlebars": "*",
-    "express-session": "*",
-    "express-messages": "*",
-    "express-validator": "*",
-    "mongodb": "*",
-    "mongoose": "*",
-    "passport":"*",
-    "passport-http": "*",
-    "passport-local": "*"
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.14.0",
+    "express-validator": "^2.20.8",
+    "mongodb": "^2.2.6",
+    "mongoose": "^4.5.9",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0"
   }
 }

@@ -1,3 +1,4 @@
+// Initializing express and other dependencies
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
@@ -13,6 +14,7 @@ var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/kushlabs');
 var db = mongoose.connection;
 
+//Routes
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -59,7 +61,6 @@ app.use(expressValidator({
   }
 }));
 
-
 // Connect Flash
 app.use(flash());
 app.use(function (req, res, next) {
@@ -78,6 +79,7 @@ app.use('/users', users);
 // Port Setup
 app.set('port', (process.env.PORT || 3000));
 
+//Listing to the port
 app.listen(app.get('port'), function() {
   console.log('Server started on port '+app.get('port'));
 });
