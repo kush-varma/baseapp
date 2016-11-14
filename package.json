@@ -1,5 +1,5 @@
 {
-  "name": "Base App",
+  "name": "Baseapp",
   "version": "0.0.1",
   "description": "A base App to get started with Express Mongo and handlebars",
   "main": "app.js",
