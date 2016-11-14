@@ -11,7 +11,7 @@ var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var mongo = require('mongodb');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/kushlabs');
+mongoose.connect('mongodb://localhost/myapp');
 var db = mongoose.connection;
 
 //Routes

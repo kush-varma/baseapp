@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', ensureAuthenticated, function(req, res, next) {
-  res.render('index', { title: 'KushLabs' });
+  res.render('index', { title: 'BaseApp' });
 });
 function ensureAuthenticated(req, res, next) {
   if(req.isAuthenticated()) {
